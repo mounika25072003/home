@@ -1,0 +1,47 @@
+.container {
+  padding: 40px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-bg.png');
+  height: 100vh;
+  background-size: cover;
+}
+.head {
+  color: #ffffff;
+  font-size: 50px;
+}
+.para {
+  color: #ffffff;
+  width: 50%;
+  font-size: 20px;
+}
+.btn {
+  color: #ffffff;
+  background-color: #6366f1;
+  border: 0;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 5px;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+}
+.btn-link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 15px;
+    flex-grow: 1;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/logo-sm-bg.png');
+  }
+  .head {
+    font-size: 25px;
+  }
+  .para {
+    width: 100%;
+    font-size: 20px;
+  }
+  .btn-link {
+    text-decoration: none;
+  }
+}
